@@ -1,0 +1,47 @@
+body{
+    background-color :rgba(0, 170, 255, 0.608);
+}
+h2 {
+    color: white;
+    background-color: rgb(95, 34, 170);
+}
+legend, label, input{
+    color:rgb(4, 4, 75);
+}
+img{
+    width: 50px;
+}
+fieldset{
+    font-family: Verdana;
+}
+.volver {
+    font-family: Arial, Impact, sans-serif;
+    text-decoration: none;
+    color: skyblue;
+    padding: 10px 20px;
+    background-color: darkblue;
+    border: 2px solid skyblue;
+    cursor: pointer;
+    display: inline-block; /* Para que el enlace se comporte como un botón */
+}
+
+.volver:hover {
+    background-color: skyblue;
+    color: darkblue;
+}
+.enviar {
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: skyblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 2em; /* El doble de la fuente (em) */
+    cursor: pointer;
+    margin-top: 25px; /* Separación del contenido con el borde de 25 pixeles */
+}
+
+.enviar:hover {
+    background-color: skyblue;
+    color: darkblue;
+}
+
