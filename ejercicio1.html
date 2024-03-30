@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de reproduccion</title>
+    <!--Añado bloque de estilo css para la imagen y la tabla-->
+    <style>
+        img, table{
+            width: 250px; /*Especifico tamaño de imagen*/
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 1);/*Tamaño y propiedades de la sombra*/
+        }
+        img {
+            margin-bottom: 10px; /*Agrregamos el espacion de 10px con la tabla siguiente*/
+        }
+        h1 {
+          color: white;
+            display: inline-block;
+            background-color: blue;
+            padding: 10px;
+            text-align: left;
+            margin: 0;
+        }
+        table {
+            border-collapse: collapse;
+            border: 3px solid red;
+        }
+        
+        th, td {
+            font-family: Impact;
+            border: 3px solid red;
+            padding: 5px; /*Añade relleno mejorando la apariencia*/
+            text-align: center;  /*Alinea el texto centrando el contenido*/
+        }
+        /*Fuente Verdana, color rosa*/
+        th {
+            font-family: Verdana;
+            background-color: pink;
+        }
+        /*Le damos a las columnas los porcentajes pedidos*/
+        th:nth-child(1), td:nth-child(1) {
+            width: 15%;
+            background-color: hotpink;
+        }
+        th:nth-child(2), td:nth-child(2) {
+            width: 60%;
+        }
+        th:nth-child(3), td:nth-child(3){
+            width: 25%; /*Ancho 3ª columna*/
+        }
+        tr.reproduciendo {
+            font-weight: bold;
+            color: red;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 2)!important;
+            background-color: yellow;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejercicio 1.Disco</h1>
+    <br>
+
+    <img src="SOAD.png" alt="Portada de disco">
+    <br>
+    <table>
+      <tr>
+        <th>Nº</th>
+        <th>Título</th>
+        <th>Dur.</th>
+      </tr>
+      <tr>
+        <td>1.</td>
+        <td>Chic 'n' Stu</td>
+        <td>2:24</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>Innervision</td>
+        <td>2:34</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>Bubbles</td>
+        <td>1:57</td>
+      </tr>
+      <tr>
+        <td>4.</td>
+        <td>Boom!</td>
+        <td>2:15</td>
+      </tr>
+      <tr>
+        <td>5.</td>
+        <td>Nüguns</td>
+        <td>2:30</td>
+      </tr>
+      <tr>
+        <td>6.</td>
+        <td>A.D.D</td>
+        <td>3:17</td>
+      </tr>
+      <tr>
+        <td>7.</td>
+        <td>Mr. Jack</td>
+        <td>4:10</td>
+      </tr>
+      <tr class="reproduciendo">
+        <td>8.</td>
+        <td>I-E-A-I-A-I-O</td>
+        <td>3:09</td>
+      </tr>
+    </table>
+</body>
+</html>

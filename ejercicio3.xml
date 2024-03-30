@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabla>
+    <fila>
+        <País></País>
+        <Título></Título>
+            <Original></Original>
+            <Castellano></Castellano>
+        <Artista></Artista>
+        <Idioma></Idioma>
+        <Vídeo></Vídeo>
+    </fila>
+    <fila>
+        <País>Alemania</País>
+        <Título></Título>
+            <Original>Rockstars</Original>
+            <Castellano>Estrellas del rock</Castellano>
+        <Artista>Malik Harris</Artista>
+        <Idioma>&#x2022; Ingles</Idioma> <!--&#x2022; Es utilizado para representar el punto gordo de las listas desordenadas-->
+        <Vídeo>D3FN2umFaM8</Vídeo>
+    </fila>
+    <fila>
+        <País>España</País>
+        <Título></Título>
+            <Original>SloMo</Original>
+            <Castellano>Cámara lenta</Castellano>
+        <Artista>Chanel</Artista>
+        <Idioma>&#x2022; Español, &#x2022; Inglés </Idioma>
+        <Vídeo>TO2yGXVQCfo</Vídeo>
+    </fila>
+    <fila>
+        <País>Finlandia</País>
+        <Título></Título>
+            <Original>Jezebel</Original>
+            <Castellano>Jezebel</Castellano>
+        <Artista>The Rasmus</Artista>
+        <Idioma>&#x2022; Ingles</Idioma>
+        <Vídeo>XtMfCf3vFbc</Vídeo>
+    </fila>
+    <fila>
+        <País>Italia</País>
+        <Título></Título>
+            <Original>Brividi</Original>
+            <Castellano>Escalofríos</Castellano>
+        <Artista>Mahmood &amp; Blanco</Artista> <!--&amp; Es la entidad predefinida para '&'-->
+        <Idioma>&#x2022; Italiano</Idioma>
+        <Vídeo>4MgMhzUmiA</Vídeo>
+    </fila>
+    <fila>
+        <País>Ucrania</País>
+        <Título></Título>
+            <Original>Stefania</Original>
+            <Castellano>Estefanía</Castellano>
+        <Artista>Kalush Orchstra</Artista>
+        <Idioma>&#x2022; Ucraniano</Idioma>
+        <Vídeo>UiEGVYOruLk</Vídeo>
+    </fila>
+</tabla>
